@@ -1,0 +1,359 @@
+
+.business-services-page {
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.business-services-hero {
+  padding: 75px 0 85px;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(23, 107, 193, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(125deg, #f3f8ff, #ffffff 75%);
+}
+
+.business-services-hero-inner {
+  max-width: 1180px;
+}
+
+.business-services-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.business-services-breadcrumb a {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.business-services-eyebrow {
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.business-services-hero h1 {
+  margin: 20px 0;
+  color: var(--navy);
+  font-size: clamp(36px, 4.5vw, 58px);
+  line-height: 1.17;
+  letter-spacing: -1.8px;
+}
+
+.business-services-hero h1 span {
+  color: var(--primary);
+}
+
+.business-services-hero p {
+  max-width: 650px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.business-services-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.business-services-primary-btn,
+.business-services-secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 49px;
+  padding: 0 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.business-services-primary-btn {
+  color: #ffffff;
+  background: var(--primary);
+}
+
+.business-services-primary-btn:hover {
+  transform: translateY(-3px);
+  background: #1057a0;
+}
+
+.business-services-secondary-btn {
+  color: var(--navy);
+  border: 1px solid var(--border);
+  background: #ffffff;
+}
+
+.business-services-secondary-btn:hover {
+  border-color: var(--primary);
+}
+
+.business-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.business-service-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 25px;
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  background: #ffffff;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.business-service-card:hover {
+  transform: translateY(-5px);
+  border-color: #c4dcf8;
+  box-shadow: 0 17px 40px rgba(16, 43, 76, 0.08);
+}
+
+.business-service-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.business-service-icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  color: var(--primary);
+  background: #edf5ff;
+}
+
+.business-service-arrow {
+  color: #a2b1c2;
+  transition: transform 0.2s ease;
+}
+
+.business-service-card:hover .business-service-arrow {
+  transform: translateX(4px);
+  color: var(--primary);
+}
+
+.business-service-card h3 {
+  margin: 0 0 10px;
+  color: var(--navy);
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+.business-service-description {
+  min-height: 95px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.business-service-features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0 25px;
+  padding: 18px 0 0;
+  border-top: 1px solid #edf1f6;
+  list-style: none;
+}
+
+.business-service-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  color: #52657a;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.business-service-features svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #1ca36e;
+}
+
+.business-service-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #edf1f6;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.business-services-process {
+  padding: 75px 0;
+  background: var(--surface);
+}
+
+.business-services-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.business-services-step {
+  padding: 30px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.business-services-step > span {
+  color: #d4e6fb;
+  font-family: "Manrope", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.business-services-step h3 {
+  margin: 18px 0 10px;
+  color: var(--navy);
+  font-size: 18px;
+}
+
+.business-services-step p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.business-services-cta-section {
+  padding: 75px 0;
+}
+
+.business-services-cta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 35px;
+  border-radius: 18px;
+  background: #edf5ff;
+}
+
+.business-services-cta-icon {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  color: var(--primary);
+  background: #ffffff;
+}
+
+.business-services-cta-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.business-services-cta-content > span {
+  color: var(--primary);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.business-services-cta-content h2 {
+  margin: 10px 0;
+  color: var(--navy);
+  font-size: clamp(21px, 2.5vw, 30px);
+  line-height: 1.35;
+}
+
+.business-services-cta-content p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.business-services-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 47px;
+  padding: 0 17px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (max-width: 950px) {
+  .business-services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .business-services-cta {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .business-services-hero {
+    padding: 48px 0 60px;
+  }
+
+  .business-services-hero h1 {
+    font-size: 38px;
+    letter-spacing: -1px;
+  }
+
+  .business-services-grid,
+  .business-services-steps {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .business-service-card {
+    padding: 23px;
+  }
+
+  .business-service-description {
+    min-height: auto;
+  }
+
+  .business-services-process {
+    padding: 55px 0;
+  }
+
+  .business-services-cta {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .business-services-cta-content h2 {
+    font-size: 24px;
+  }
+}

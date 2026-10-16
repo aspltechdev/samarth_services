@@ -1,0 +1,270 @@
+
+.how-it-works-section {
+  padding: 90px 0;
+  background: #ffffff;
+  color: #25364b;
+}
+
+.how-it-works-container {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.how-it-works-heading {
+  max-width: 720px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.how-it-works-eyebrow {
+  display: inline-block;
+  margin-bottom: 17px;
+  color: #176bc1;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.how-it-works-heading h2 {
+  margin: 0;
+  color: #102b4c;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(31px, 4vw, 44px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1.3px;
+}
+
+.how-it-works-heading h2 span {
+  color: #176bc1;
+}
+
+.how-it-works-heading p {
+  max-width: 620px;
+  margin: 18px auto 0;
+  color: #65758a;
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+/* Steps grid */
+
+.how-it-works-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.how-step-card {
+  position: relative;
+  min-width: 0;
+  padding: 28px 23px;
+  border: 1px solid #e1eaf4;
+  border-radius: 15px;
+  background: #ffffff;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.how-step-card:hover {
+  transform: translateY(-5px);
+  border-color: #b9d8f6;
+  box-shadow: 0 15px 35px rgba(16, 43, 76, 0.07);
+}
+
+.how-step-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.how-step-icon {
+  display: grid;
+  width: 56px;
+  height: 56px;
+  place-items: center;
+  border-radius: 15px;
+  background: #eaf4ff;
+  color: #176bc1;
+}
+
+.how-step-number {
+  color: #c5d3e3;
+  font-family: "Manrope", sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.how-step-connector {
+  position: absolute;
+  top: 46px;
+  right: -19px;
+  z-index: 2;
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border: 1px solid #dce8f5;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #176bc1;
+}
+
+.how-step-card h3 {
+  margin: 26px 0 12px;
+  color: #102b4c;
+  font-family: "Manrope", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.how-step-card p {
+  margin: 0;
+  color: #65758a;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+/* Bottom call to action */
+
+.how-it-works-bottom {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 40px;
+  padding: 23px 26px;
+  border: 1px solid #dceaf8;
+  border-radius: 14px;
+  background: #f4f9ff;
+}
+
+.how-bottom-icon {
+  display: grid;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 13px;
+  background: #e0efff;
+  color: #176bc1;
+}
+
+.how-bottom-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.how-bottom-copy h3 {
+  margin: 0;
+  color: #102b4c;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.how-bottom-copy p {
+  margin: 6px 0 0;
+  color: #65758a;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.how-bottom-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 19px;
+  border-radius: 9px;
+  background: #176bc1;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.how-bottom-button:hover {
+  transform: translateY(-2px);
+  background: #10589f;
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+  .how-it-works-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .how-step-connector {
+    display: none;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .how-it-works-section {
+    padding: 58px 0;
+  }
+
+  .how-it-works-container {
+    width: calc(100% - 32px);
+  }
+
+  .how-it-works-heading {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+
+  .how-it-works-heading h2 {
+    font-size: 31px;
+    letter-spacing: -0.8px;
+  }
+
+  .how-it-works-heading p {
+    font-size: 14px;
+  }
+
+  .how-it-works-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .how-step-card {
+    padding: 23px;
+  }
+
+  .how-step-card h3 {
+    margin-top: 19px;
+  }
+
+  .how-it-works-bottom {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .how-bottom-copy {
+    flex-basis: calc(100% - 70px);
+  }
+
+  .how-bottom-button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .how-it-works-section *,
+  .how-it-works-section *::before,
+  .how-it-works-section *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

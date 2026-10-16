@@ -1,0 +1,250 @@
+
+.trust-section {
+  padding: 90px 0;
+  background: #102b4c;
+  color: #ffffff;
+}
+
+.trust-container {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.trust-heading {
+  max-width: 760px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.trust-eyebrow {
+  display: inline-block;
+  margin-bottom: 17px;
+  color: #8dccff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.trust-heading h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(31px, 4vw, 44px);
+  font-weight: 800;
+  line-height: 1.22;
+  letter-spacing: -1.3px;
+}
+
+.trust-heading h2 span {
+  display: block;
+  color: #8dccff;
+}
+
+.trust-heading > p {
+  max-width: 650px;
+  margin: 18px auto 0;
+  color: #c4d5e8;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+/* Commitment cards */
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.trust-card {
+  min-width: 0;
+  padding: 25px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.055);
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.trust-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(141, 204, 255, 0.4);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.trust-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.trust-card-icon {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border: 1px solid rgba(141, 204, 255, 0.22);
+  border-radius: 14px;
+  background: rgba(141, 204, 255, 0.1);
+  color: #8dccff;
+}
+
+.trust-card-number {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.trust-card h3 {
+  margin: 22px 0 10px;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.trust-card p {
+  margin: 0;
+  color: #c1d1e3;
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+/* Bottom CTA */
+
+.trust-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 35px;
+  padding: 27px 30px;
+  border: 1px solid rgba(141, 204, 255, 0.22);
+  border-radius: 15px;
+  background: linear-gradient(
+    110deg,
+    rgba(23, 107, 193, 0.25),
+    rgba(255, 255, 255, 0.045)
+  );
+}
+
+.trust-bottom-content {
+  max-width: 690px;
+}
+
+.trust-bottom-label {
+  color: #8dccff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.7px;
+}
+
+.trust-bottom h3 {
+  margin: 12px 0 8px;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+.trust-bottom p {
+  margin: 0;
+  color: #c4d5e8;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.trust-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
+  border-radius: 9px;
+  background: #ffffff;
+  color: #102b4c;
+  font-size: 12px;
+  font-weight: 800;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.trust-button:hover {
+  transform: translateY(-2px);
+  background: #e6f3ff;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .trust-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-section {
+    padding: 58px 0;
+  }
+
+  .trust-container {
+    width: calc(100% - 32px);
+  }
+
+  .trust-heading {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .trust-heading h2 {
+    font-size: 31px;
+    letter-spacing: -0.8px;
+  }
+
+  .trust-heading h2 span {
+    display: inline;
+  }
+
+  .trust-heading > p {
+    font-size: 14px;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .trust-card {
+    padding: 23px;
+  }
+
+  .trust-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .trust-bottom h3 {
+    font-size: 22px;
+  }
+
+  .trust-button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trust-section *,
+  .trust-section *::before,
+  .trust-section *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
