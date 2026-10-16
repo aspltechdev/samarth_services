@@ -1,0 +1,150 @@
+
+.client-marquee-section {
+  overflow: hidden;
+  padding: 75px 0 80px;
+  background: #fff;
+}
+
+.client-marquee-container {
+  width: 100%;
+}
+
+.client-marquee-heading {
+  max-width: 650px;
+  margin: 0 auto 38px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.client-marquee-heading h2 {
+  margin: 0 0 12px;
+  color: #102b4c;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(28px, 3.5vw, 38px);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.client-marquee-heading p {
+  margin: 0;
+  color: #65758a;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.client-marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+}
+
+.client-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: client-marquee-scroll 28s linear infinite;
+  will-change: transform;
+}
+
+.client-marquee:hover .client-marquee-track {
+  animation-play-state: paused;
+}
+
+.client-marquee-item {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 210px;
+  margin-right: 18px;
+  padding: 23px 28px;
+  border: 1px solid #e2eaf3;
+  border-radius: 12px;
+  background: #f8fbff;
+  color: #334b67;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease;
+}
+
+.client-marquee-item:hover {
+  border-color: #b8d8fa;
+  background: #eaf4ff;
+}
+
+.client-marquee-dot {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
+  border-radius: 50%;
+  background: #176bc1;
+}
+
+@keyframes client-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 600px) {
+  .client-marquee-section {
+    padding: 55px 0 60px;
+  }
+
+  .client-marquee-heading {
+    margin-bottom: 25px;
+  }
+
+  .client-marquee-item {
+    min-width: 165px;
+    margin-right: 12px;
+    padding: 18px 20px;
+    font-size: 12px;
+  }
+
+  .client-marquee-track {
+    animation-duration: 22s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .client-marquee-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .client-marquee {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .client-marquee-item {
+    margin-bottom: 8px;
+  }
+}

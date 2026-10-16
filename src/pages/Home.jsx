@@ -9,6 +9,10 @@ import WhyChooseUs from "../components/WhyChooseUs.jsx";
 import HowItWorks from "../components/HowItWorks.jsx";
 import FeaturedServices from "../components/FeaturedServices.jsx";
 import TrustSection from "../components/TrustSection.jsx";
+import Testimonials from "./Testimonials.jsx";
+import ClientMarquee from "./ClientMarquee.jsx";
+import Gallery from "../components/Gallery.jsx";
+import FinalCTA from "../components/FinalCTA.jsx";
 
 export default function Home() {
   return (
@@ -43,11 +47,15 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <About/>
+      <ClientMarquee/>
+   
       <WhyChooseUs/>
       <HowItWorks/>
       <FeaturedServices/>
       <TrustSection/>
+      <Gallery/>
+      <Testimonials/>
+      <FinalCTA/>
 
 
     </>
