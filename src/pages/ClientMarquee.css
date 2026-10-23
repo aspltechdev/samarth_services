@@ -1,106 +1,230 @@
 
-.client-marquee-section {
+/* =========================================
+   CLIENT / NETWORK MARQUEE
+   Samarth MultiServe
+========================================= */
+
+.sm-network {
+  position: relative;
   overflow: hidden;
-  padding: 75px 0 80px;
-  background: #fff;
+  padding: 82px 0 58px;
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(23, 107, 193, 0.055),
+      transparent 42%
+    ),
+    #ffffff;
 }
 
-.client-marquee-container {
-  width: 100%;
+/* Heading */
+
+.sm-network-container {
+  width: min(1260px, calc(100% - 48px));
+  margin: 0 auto 42px;
 }
 
-.client-marquee-heading {
-  max-width: 650px;
-  margin: 0 auto 38px;
-  padding: 0 20px;
+.sm-network-heading {
   text-align: center;
 }
 
-.client-marquee-heading h2 {
-  margin: 0 0 12px;
-  color: #102b4c;
-  font-family: "Manrope", sans-serif;
-  font-size: clamp(28px, 3.5vw, 38px);
-  font-weight: 800;
-  letter-spacing: -1px;
-}
-
-.client-marquee-heading p {
-  margin: 0;
-  color: #65758a;
-  font-size: 15px;
-  line-height: 1.8;
-}
-
-.client-marquee {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding: 10px 0;
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    #000 8%,
-    #000 92%,
-    transparent
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    #000 8%,
-    #000 92%,
-    transparent
-  );
-}
-
-.client-marquee-track {
-  display: flex;
-  width: max-content;
-  animation: client-marquee-scroll 28s linear infinite;
-  will-change: transform;
-}
-
-.client-marquee:hover .client-marquee-track {
-  animation-play-state: paused;
-}
-
-.client-marquee-item {
-  display: flex;
-  flex: 0 0 auto;
+.sm-network-eyebrow {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  min-width: 210px;
-  margin-right: 18px;
-  padding: 23px 28px;
-  border: 1px solid #e2eaf3;
-  border-radius: 12px;
-  background: #f8fbff;
-  color: #334b67;
-  font-family: "Manrope", sans-serif;
-  font-size: 14px;
+  gap: 10px;
+  margin-bottom: 17px;
+  color: #176bc1;
+  font-size: 10px;
   font-weight: 800;
-  letter-spacing: 1px;
-  white-space: nowrap;
-  transition:
-    border-color 0.25s ease,
-    background 0.25s ease;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
 }
 
-.client-marquee-item:hover {
-  border-color: #b8d8fa;
-  background: #eaf4ff;
-}
-
-.client-marquee-dot {
-  width: 9px;
-  height: 9px;
-  flex: 0 0 9px;
-  border-radius: 50%;
+.sm-network-eyebrow-line {
+  width: 28px;
+  height: 2px;
+  border-radius: 2px;
   background: #176bc1;
 }
 
-@keyframes client-marquee-scroll {
+.sm-network-heading h2 {
+  margin: 0;
+  color: #102b4c;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1.7px;
+}
+
+.sm-network-heading h2 span {
+  display: block;
+  margin-top: 5px;
+  color: #176bc1;
+}
+
+.sm-network-heading p {
+  max-width: 590px;
+  margin: 18px auto 0;
+  color: #68798e;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+/* Marquee viewport */
+
+.sm-network-marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 15px 0 22px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 7%,
+    #000 93%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 7%,
+    #000 93%,
+    transparent 100%
+  );
+}
+
+/* Scrolling track */
+
+.sm-network-track {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  width: max-content;
+  animation: sm-logo-scroll 34s linear infinite;
+  will-change: transform;
+}
+
+.sm-network-marquee:hover .sm-network-track {
+  animation-play-state: paused;
+}
+
+/* Individual logo card */
+
+.sm-network-logo-card {
+  position: relative;
+  display: flex;
+  flex: 0 0 190px;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 108px;
+  overflow: hidden;
+  padding: 22px;
+  border: 1px solid #e5ebf3;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 8px 26px rgba(16, 43, 76, 0.045);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.sm-network-logo-card::before {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(23, 107, 193, 0.045),
+    transparent 60%
+  );
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.sm-network-logo-card:hover {
+  transform: translateY(-5px);
+  border-color: #bfd9f4;
+  background: #ffffff;
+  box-shadow: 0 16px 35px rgba(16, 43, 76, 0.1);
+}
+
+.sm-network-logo-card:hover::before {
+  opacity: 1;
+}
+
+/* Logo image */
+
+.sm-network-logo-card img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 145px;
+  max-height: 64px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.78;
+  transition:
+    filter 0.3s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.sm-network-logo-card:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Fallback text when an image fails */
+.sm-network-logo-card.logo-fallback::after {
+  position: relative;
+  z-index: 2;
+  color: #173b61;
+  content: attr(data-name);
+  font-family: "Manrope", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+/* Bottom caption */
+
+.sm-network-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.sm-network-bottom span {
+  width: 30px;
+  height: 1px;
+  background: #d7e2ee;
+}
+
+.sm-network-bottom p {
+  margin: 0;
+  color: #8492a3;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+/* Infinite animation */
+
+@keyframes sm-logo-scroll {
   from {
     transform: translateX(0);
   }
@@ -110,41 +234,159 @@
   }
 }
 
-@media (max-width: 600px) {
-  .client-marquee-section {
-    padding: 55px 0 60px;
+/* Tablet */
+
+@media (max-width: 1024px) {
+  .sm-network {
+    padding: 68px 0 48px;
   }
 
-  .client-marquee-heading {
-    margin-bottom: 25px;
+  .sm-network-container {
+    margin-bottom: 32px;
   }
 
-  .client-marquee-item {
-    min-width: 165px;
-    margin-right: 12px;
-    padding: 18px 20px;
-    font-size: 12px;
+  .sm-network-logo-card {
+    flex-basis: 170px;
+    width: 170px;
+    height: 98px;
+    padding: 19px;
   }
 
-  .client-marquee-track {
+  .sm-network-track {
+    gap: 17px;
+    animation-duration: 29s;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .sm-network {
+    padding: 55px 0 40px;
+  }
+
+  .sm-network-container {
+    width: calc(100% - 36px);
+    margin-bottom: 24px;
+  }
+
+  .sm-network-eyebrow {
+    margin-bottom: 13px;
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
+  .sm-network-heading h2 {
+    font-size: clamp(27px, 7vw, 34px);
+    line-height: 1.28;
+    letter-spacing: -1px;
+  }
+
+  .sm-network-heading h2 span {
+    margin-top: 3px;
+  }
+
+  .sm-network-heading p {
+    max-width: 420px;
+    margin-top: 13px;
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  .sm-network-marquee {
+    padding: 10px 0 16px;
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 4%,
+      #000 96%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 4%,
+      #000 96%,
+      transparent
+    );
+  }
+
+  .sm-network-track {
+    gap: 13px;
+    animation-duration: 25s;
+  }
+
+  .sm-network-logo-card {
+    flex-basis: 145px;
+    width: 145px;
+    height: 82px;
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .sm-network-logo-card img {
+    max-width: 115px;
+    max-height: 50px;
+  }
+
+  .sm-network-logo-card.logo-fallback::after {
+    font-size: 14px;
+  }
+
+  .sm-network-bottom {
+    gap: 9px;
+    margin-top: 13px;
+  }
+
+  .sm-network-bottom span {
+    width: 20px;
+  }
+
+  .sm-network-bottom p {
+    font-size: 10px;
+  }
+}
+
+/* Small mobile */
+
+@media (max-width: 380px) {
+  .sm-network-container {
+    width: calc(100% - 28px);
+  }
+
+  .sm-network-heading h2 {
+    font-size: 26px;
+  }
+
+  .sm-network-logo-card {
+    flex-basis: 130px;
+    width: 130px;
+    height: 76px;
+    padding: 12px;
+  }
+
+  .sm-network-track {
+    gap: 10px;
     animation-duration: 22s;
   }
 }
 
+/* Accessibility */
+
 @media (prefers-reduced-motion: reduce) {
-  .client-marquee-track {
+  .sm-network-track {
     animation: none;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
   }
 
-  .client-marquee {
+  .sm-network-marquee {
+    overflow-x: auto;
     -webkit-mask-image: none;
     mask-image: none;
   }
 
-  .client-marquee-item {
-    margin-bottom: 8px;
+  .sm-network-logo-card,
+  .sm-network-logo-card img,
+  .sm-network-logo-card::before {
+    transition: none;
   }
 }

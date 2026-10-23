@@ -9,7 +9,8 @@ const navItems = [
   { label: "Loans", to: "/loans" },
   { label: "Insurance", to: "/insurance" },
   { label: "Travel", to: "/travel" },
-  { label: "Services", to: "/services" },
+    { label: "RTO ", to: "/services" },
+  { label: "E-Services", to: "/e-services" },
   { label: "Contact", to: "/contact" },
 ];
 

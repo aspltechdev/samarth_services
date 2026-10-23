@@ -138,6 +138,7 @@ import Insurance from "./pages/Insurance.jsx";
 import Travel from "./pages/Travel.jsx";
 import Services from "./pages/Services.jsx";
 import Contact from "./pages/Contact.jsx";
+import EServices from "./pages/EServices.jsx";
 
 export default function App() {
   return (
@@ -152,6 +153,7 @@ export default function App() {
           <Route path="/insurance" element={<Insurance />} />
           <Route path="/travel" element={<Travel />} />
           <Route path="/services" element={<Services />} />
+            <Route path="/e-services" element={<EServices />} />
 
               <Route path="/contact" element={<Contact />} />
           {/* <Route path="/about" element={<About />} />

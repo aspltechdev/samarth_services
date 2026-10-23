@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Hero />
 
-      <section className="home-services section-padding">
+      {/* <section className="home-services section-padding">
         <div className="container">
           <div className="section-heading">
             <span className="section-kicker">WHAT WE OFFER</span>
@@ -46,15 +46,15 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       <ClientMarquee/>
    
       <WhyChooseUs/>
       <HowItWorks/>
       <FeaturedServices/>
       <TrustSection/>
-      <Gallery/>
-      <Testimonials/>
+      {/* <Gallery/> */}
+      {/* <Testimonials/> */}
       <FinalCTA/>
 
 
