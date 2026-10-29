@@ -715,6 +715,11 @@ import {
   FiCompass,
 } from "react-icons/fi";
 import "./About.css";
+import a1 from "../assets/a1.png";
+import a2 from "../assets/a2.png";
+import a3 from "../assets/a3.png";
+import a4 from "../assets/a4.png";
+
 
 const slides = [
   {
@@ -724,7 +729,7 @@ const slides = [
     description:
       "Discover financial, travel, insurance, and business-related services in one convenient destination.",
     image:
-      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2400&q=90",
+      a1,
     icon: FiUsers,
     badge: "People-Focused Service",
     badgeText: "We start by understanding your needs.",
@@ -737,7 +742,7 @@ const slides = [
     description:
       "Explore loan, insurance, property, and other service options with guidance to help you understand your next steps.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=90",
+      a2,
     icon: FiBriefcase,
     badge: "Solutions That Connect",
     badgeText: "Explore services around your requirements.",
@@ -750,7 +755,7 @@ const slides = [
     description:
       "Whether you're planning, protecting, moving, or growing, connect with our team to explore available service categories.",
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2400&q=90",
+     a3,
     icon: FiCompass,
     badge: "Your Journey Matters",
     badgeText: "Let's explore the right next step.",
@@ -1213,7 +1218,7 @@ export default function About() {
           >
             <div className="about-intro-image">
               <img
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1100&q=85"
+                src={a4}
                 alt="Modern commercial office building"
                 loading="lazy"
               />

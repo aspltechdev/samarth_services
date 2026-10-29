@@ -319,6 +319,11 @@ import {
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./HowItWorks.css";
+import h11 from "../assets/h11.png";
+import h12 from "../assets/h12.png";
+import h13 from "../assets/h13.png";
+import h14 from "../assets/h14.png";
+
 
 const smProcessSteps = [
   {
@@ -328,7 +333,7 @@ const smProcessSteps = [
     description:
       "Tell us what you are looking for. We'll help you identify the right service to explore.",
     image:
-      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=90",
+      h11,
     alt: "Professionals discussing customer requirements",
     tag: "THE BEGINNING",
     keyword: "CONNECT",
@@ -340,7 +345,7 @@ const smProcessSteps = [
     description:
       "Explore relevant solutions and understand which options may suit your requirements.",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=90",
+      h12,
     alt: "Business professionals evaluating options",
     tag: "FIND YOUR FIT",
     keyword: "EXPLORE",
@@ -352,7 +357,7 @@ const smProcessSteps = [
     description:
       "Understand documentation, eligibility, applicable charges and terms before proceeding.",
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=90",
+      h13,
     alt: "Reviewing documents and business paperwork",
     tag: "KNOW THE DETAILS",
     keyword: "UNDERSTAND",
@@ -364,7 +369,7 @@ const smProcessSteps = [
     description:
       "Choose how to proceed and follow the process for your selected service.",
     image:
-      "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1000&q=90",
+    h14,
     alt: "Business professionals working together",
     tag: "YOUR NEXT CHAPTER",
     keyword: "TAKE ACTION",

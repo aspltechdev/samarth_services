@@ -115,6 +115,12 @@ import {
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "./TrustSection.css";
+import b3 from "../assets/b3.png";
+import b4 from "../assets/b4.png";
+import b5 from "../assets/b5.png";
+import b6 from "../assets/b6.png";
+import b7 from "../assets/b7.png";
+
 
 const trustItems = [
   {
@@ -125,7 +131,7 @@ const trustItems = [
     label: "ONE CONNECTED DESTINATION",
     icon: FiGrid,
     image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=85",
+   b4,
   },
   {
     number: "02",
@@ -135,7 +141,7 @@ const trustItems = [
     label: "YOUR NEEDS FIRST",
     icon: FiUsers,
     image:
-      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=85",
+      b5,
   },
   {
     number: "03",
@@ -145,7 +151,7 @@ const trustItems = [
     label: "CLEAR COMMUNICATION",
     icon: FiShield,
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=85",
+      b6,
   },
   {
     number: "04",
@@ -155,7 +161,7 @@ const trustItems = [
     label: "INFORMED DECISIONS",
     icon: FiMessageCircle,
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85",
+     b7,
   },
 ];
 
@@ -281,7 +287,7 @@ export default function TrustSection() {
           >
             <div className="smc-trust-main-image">
               <img
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1500&q=90"
+                src={b3}
                 alt="Business professionals discussing customer needs"
                 loading="lazy"
               />

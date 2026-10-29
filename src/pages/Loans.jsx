@@ -1415,6 +1415,17 @@ import {
   FiChevronRight,
 } from "react-icons/fi";
 import "./Loans.css";
+import l1 from "../assets/l1.png";
+import l2 from "../assets/l2.png";
+import l3 from "../assets/l3.png";
+import l4 from "../assets/l4.png";
+import l5 from "../assets/l5.png";
+import l6 from "../assets/l6.png";
+import l7 from "../assets/l7.png";
+import l8 from "../assets/l8.png";
+import l9 from "../assets/l9.png";
+import l10 from "../assets/l10.png";
+import l11 from "../assets/l11.png";
 
 const WHATSAPP_NUMBER = "919904856687";
 
@@ -1429,7 +1440,7 @@ const slides = [
     description:
       "From personal milestones to your dream home, explore financing options with clear information and guidance throughout your enquiry journey.",
     image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=2400&q=90",
+      l1,
     icon: FiHome,
     badge: "Your goals matter",
     badgeText: "Explore options around your needs.",
@@ -1442,7 +1453,7 @@ const slides = [
     description:
       "Explore business financing and working-capital options to support your next stage of growth and operational requirements.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=90",
+     l2,
     icon: FiBriefcase,
     badge: "Think bigger",
     badgeText: "Understand potential financing options.",
@@ -1455,7 +1466,7 @@ const slides = [
     description:
       "From vehicle purchases to higher education and other financial needs, find out which available loan options may suit your requirements.",
     image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2400&q=90",
+      l3,
     icon: FiTruck,
     badge: "Plan your next step",
     badgeText: "Get support understanding the process.",
@@ -1470,7 +1481,7 @@ const loanTypes = [
     description:
       "Explore personal loan options for planned expenses, emergencies, and important life goals.",
     image:
-      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1000&q=85",
+      l4,
     icon: FiDollarSign,
     features: [
       "Flexible loan options",
@@ -1484,7 +1495,7 @@ const loanTypes = [
     description:
       "Get guidance on financing your dream home, whether you are buying, building, or renovating.",
     image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=85",
+    l5,
     icon: FiHome,
     features: [
       "Home purchase financing",
@@ -1498,7 +1509,7 @@ const loanTypes = [
     description:
       "Discover financing options to support business expansion, working capital, and operational needs.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85",
+      l6,
     icon: FiBriefcase,
     features: [
       "Business expansion",
@@ -1512,7 +1523,7 @@ const loanTypes = [
     description:
       "Explore financing options for your next car or other eligible vehicle purchase.",
     image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=85",
+ l7,
     icon: FiTruck,
     features: [
       "New vehicle financing",
@@ -1526,7 +1537,7 @@ const loanTypes = [
     description:
       "Explore education financing options to help plan for higher studies and career development.",
     image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85",
+      l8,
     icon: FiBookOpen,
     features: [
       "Higher education financing",
@@ -1540,7 +1551,7 @@ const loanTypes = [
     description:
       "Learn about gold-backed financing options, subject to lender policies and eligibility.",
     image:
-      "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1000&q=85",
+     l9,
     icon: FiShield,
     features: [
       "Gold-backed loan enquiries",
@@ -1554,7 +1565,7 @@ const loanTypes = [
     description:
       "Explore secured financing options against eligible residential or commercial property.",
     image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1000&q=85",
+    l10,
     icon: FiCreditCard,
     features: [
       "Property-backed financing",
@@ -1568,7 +1579,7 @@ const loanTypes = [
     description:
       "Tell us your financial requirements and explore other suitable financing categories.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=85",
+      l11,
     icon: FiTrendingUp,
     features: [
       "Understand available options",

@@ -46,7 +46,7 @@
       rgba(5, 9, 16, 0.18)
     ),
     linear-gradient(0deg, rgba(5, 9, 16, 0.7), transparent 40%),
-    url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2200&q=90");
+    url("../assets/eh.png");
   background-position: center;
   background-size: cover;
   animation: esHeroReveal 1.1s ease-out both;
@@ -502,7 +502,7 @@
       rgba(6, 11, 20, 0.83) 50%,
       rgba(6, 11, 20, 0.28)
     ),
-    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85");
+    url("../assets/ef.png");
   background-size: cover;
   background-position: center;
 }
@@ -651,7 +651,7 @@
         rgba(6, 11, 20, 0.72) 60%,
         rgba(6, 11, 20, 0.25)
       ),
-      url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85");
+      url("../assets/ef.png");
   }
 
   .es-cta-content {

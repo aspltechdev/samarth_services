@@ -309,6 +309,10 @@ import {
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./WhyChooseUs.css";
+import h4 from "../assets/h4.png";
+import h5 from "../assets/h5.png";
+import h6 from "../assets/h6.png";
+import h7 from "../assets/h7.png";
 
 const smWhyBenefits = [
   {
@@ -318,7 +322,7 @@ const smWhyBenefits = [
     description:
       "Explore relevant services based on your individual, family or business requirements.",
     image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=85",
+      h4,
     alt: "Home and property",
   },
   {
@@ -328,7 +332,7 @@ const smWhyBenefits = [
     description:
       "Discuss your requirements with our team and understand the available options.",
     image:
-      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=85",
+      h5,
     alt: "Professionals assisting a customer",
   },
   {
@@ -338,7 +342,7 @@ const smWhyBenefits = [
     description:
       "Understand applicable processes, documentation, charges and terms before proceeding.",
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=85",
+      h6,
     alt: "Documents and paperwork",
   },
   {
@@ -348,7 +352,7 @@ const smWhyBenefits = [
     description:
       "Connect with us through phone or WhatsApp for questions and service enquiries.",
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85",
+     h7,
     alt: "Digital communication",
   },
 ];

@@ -356,6 +356,8 @@ import {
   FiShield,
 } from "react-icons/fi";
 import "./Contact.css";
+import contact from "../assets/contact.png";
+
 
 const WHATSAPP_NUMBER = "919904856687";
 

@@ -167,6 +167,8 @@ import { motion } from "framer-motion";
 import "./FeaturedServices.css";
 
 const SM_FEATURED_WHATSAPP = "919904856687"; // Verify before publishing
+import b1 from "../assets/b1.png";
+import b2 from "../assets/b2.png";
 
 const smFeaturedServices = [
   {
@@ -186,7 +188,7 @@ const smFeaturedServices = [
     theme: "sm-featured-loans",
     number: "01",
     image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=90",
+      b1,
     imageAlt: "Modern home representing property and finance goals",
     imageLabel: "BUILD YOUR FUTURE",
   },
@@ -207,7 +209,7 @@ const smFeaturedServices = [
     theme: "sm-featured-insurance",
     number: "02",
     image:
-      "https://images.unsplash.com/photo-family-photo?auto=format&fit=crop&w=1200&q=90",
+      b2,
     imageAlt: "Family representing protection and peace of mind",
     imageLabel: "PROTECT WHAT MATTERS",
   },

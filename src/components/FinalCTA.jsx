@@ -76,6 +76,7 @@ import {
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./FinalCTA.css";
+import ft from "../assets/ft.png";
 
 const WHATSAPP_NUMBER = "919904856687"; // Verify before publishing
 const PHONE_NUMBER = "+91 99048 56687"; // Verify before publishing
@@ -183,7 +184,7 @@ export default function FinalCTA() {
           >
             <div className="smc-final-cta-image">
               <img
-                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1100&q=90"
+                src={ft}
                 alt="Business professionals collaborating and discussing ideas"
                 loading="lazy"
               />

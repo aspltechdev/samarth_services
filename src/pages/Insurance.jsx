@@ -24,6 +24,15 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import "./Insurance.css";
+import i1 from "../assets/i1.png";
+import i2 from "../assets/i2.png";
+import i3 from "../assets/i3.png";
+import i4 from "../assets/i4.png";
+import i5 from "../assets/i5.png";
+import i6 from "../assets/i6.png";
+import i7 from "../assets/i7.png";
+import i8 from "../assets/i8.png";
+import i9 from "../assets/i9.png";
 
 const WHATSAPP_NUMBER = "919904856687";
 
@@ -35,7 +44,7 @@ const slides = [
     description:
       "Comprehensive insurance solutions to protect you, your family, and everything you value.",
     image:
-      "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=2400&q=90",
+     i1,
     icon: ShieldCheck,
     badge: "Protection for every stage of life",
     features: ["Trusted Guidance", "Flexible Plans", "Personalised Support"],
@@ -47,7 +56,7 @@ const slides = [
     description:
       "Explore motor insurance options for your car or two-wheeler and travel with greater peace of mind.",
     image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2400&q=90",
+      i2,
     icon: CarFront,
     badge: "Your journey deserves protection",
     features: ["Motor Insurance", "Renewal Assistance", "Reliable Guidance"],
@@ -59,7 +68,7 @@ const slides = [
     description:
       "Explore health, life, home, and business insurance options suited to your needs and priorities.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=90",
+      i3,
     icon: Building2,
     badge: "Make protection part of your plan",
     features: ["Health & Life", "Home Protection", "Business Coverage"],
@@ -74,7 +83,7 @@ const insuranceTypes = [
     description:
       "Explore health insurance options and understand eligible medical and hospitalisation coverage.",
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=85",
+    i4,
     icon: HeartPulse,
     features: [
       "Individual and family options",
@@ -89,7 +98,7 @@ const insuranceTypes = [
     description:
       "Explore life insurance products for your family's future and long-term financial planning.",
     image:
-      "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=85",
+      i5,
     icon: ShieldCheck,
     features: [
       "Life protection options",
@@ -104,7 +113,7 @@ const insuranceTypes = [
     description:
       "Explore insurance options for your car or two-wheeler and understand the available coverage.",
     image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=85",
+     i6,
     icon: CarFront,
     features: [
       "Car insurance options",
@@ -119,7 +128,7 @@ const insuranceTypes = [
     description:
       "Explore home insurance options for eligible property interests and covered risks.",
     image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85",
+      i7,
     icon: House,
     features: [
       "Property protection options",
@@ -134,7 +143,7 @@ const insuranceTypes = [
     description:
       "Compare available protection options based on your family's requirements and priorities.",
     image:
-      "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=85",
+    i8,
     icon: Users,
     features: [
       "Family protection options",
@@ -149,7 +158,7 @@ const insuranceTypes = [
     description:
       "Explore insurance options for eligible business, commercial property, and operational risks.",
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85",
+      i9,
     icon: Building2,
     features: [
       "Business protection options",

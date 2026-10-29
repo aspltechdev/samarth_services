@@ -141,6 +141,11 @@ import {
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import "./Hero.css";
+import h1 from "../assets/h1.png";
+import h2 from "../assets/h2.png";
+import h3 from "../assets/h3.png";
+import h4 from "../assets/h4.png";
+
 
 const slides = [
   {
@@ -151,7 +156,7 @@ const slides = [
     description:
       "From loans and insurance to travel, vehicle rentals, courier services and real estate, discover solutions for your personal and business needs.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=90",
+     h1,
     number: "01",
     color: "#176bc1",
   },
@@ -163,7 +168,7 @@ const slides = [
     description:
       "Explore available loan and insurance options with guidance to help you understand your choices and next steps.",
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2200&q=90",
+     h2,
     number: "02",
     color: "#2876c9",
   },
@@ -175,7 +180,7 @@ const slides = [
     description:
       "Explore travel assistance, tourism services and vehicle rental options to help plan your next journey.",
     image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2200&q=90",
+      h3,
     number: "03",
     color: "#178aaf",
   },
@@ -187,7 +192,7 @@ const slides = [
     description:
       "From courier and cargo to real estate and other business services, connect with us to explore the support you need.",
     image:
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=2200&q=90",
+      h4,
     number: "04",
     color: "#176bc1",
   },

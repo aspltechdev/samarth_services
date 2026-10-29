@@ -15,6 +15,15 @@ import {
   FiClipboard,
 } from "react-icons/fi";
 import "./EServices.css";
+import e1 from "../assets/e1.png";
+import e2 from "../assets/e2.png";
+import e3 from "../assets/e3.png";
+import e4 from "../assets/e4.png";
+import e5 from "../assets/e5.png";
+import e6 from "../assets/e6.png";
+import e7 from "../assets/e7.png";
+import e8 from "../assets/e8.png";
+
 
 const WHATSAPP = "https://wa.me/919904856687";
 
@@ -27,7 +36,7 @@ const eServices = [
       "Assistance with PAN applications, corrections, and other eligible PAN-related requests.",
     icon: <FiCreditCard />,
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1000&q=85",
+      e1,
   },
   {
     number: "02",
@@ -37,7 +46,7 @@ const eServices = [
       "Guidance on official Aadhaar services, appointment procedures and eligible update requests.",
     icon: <FiUser />,
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85",
+      e2,
   },
   {
     number: "03",
@@ -47,7 +56,7 @@ const eServices = [
       "Assistance with income tax return preparation, document checklists and filing procedures.",
     icon: <FiFileText />,
     image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1000&q=85",
+      e3,
   },
   {
     number: "04",
@@ -57,7 +66,7 @@ const eServices = [
       "Guidance for GST registration, return filing requirements and related documentation.",
     icon: <FiBriefcase />,
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=85",
+      e4,
   },
   {
     number: "05",
@@ -67,7 +76,7 @@ const eServices = [
       "Assistance with eligible applications for income, community, residence and other certificates.",
     icon: <FiShield />,
     image:
-      "https://images.unsplash.com/photo-1473186505569-9c61870c11f9?auto=format&fit=crop&w=1000&q=85",
+      e5,
   },
   {
     number: "06",
@@ -77,7 +86,7 @@ const eServices = [
       "Help understanding application forms, required documents and official submission processes.",
     icon: <FiClipboard />,
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85",
+      e6,
   },
   {
     number: "07",
@@ -87,7 +96,7 @@ const eServices = [
       "Guidance on eligible business registrations and MSME/Udyam registration procedures.",
     icon: <FiBriefcase />,
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85",
+      e7,
   },
   {
     number: "08",
@@ -97,7 +106,7 @@ const eServices = [
       "Assistance navigating relevant government portals and understanding application steps.",
     icon: <FiGlobe />,
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85",
+      e8,
   },
 ];
 

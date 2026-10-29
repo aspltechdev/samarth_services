@@ -301,6 +301,12 @@ import {
   FiClipboard,
 } from "react-icons/fi";
 import "./Services.css";
+import rt1 from "../assets/rt1.png";
+import rt2 from "../assets/rt2.png";
+import rt3 from "../assets/rt3.png";
+import rt4 from "../assets/rt4.png";
+import rt5 from "../assets/rt5.png";
+import rt6 from "../assets/rt6.png";
 
 const whatsapp = "https://wa.me/919904856687";
 
@@ -311,7 +317,7 @@ const services = [
     description:
       "Guidance for new vehicle registration, documentation and applicable RTO procedures.",
     image:
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85",
+    rt1,
     icon: <FiFileText />,
     tag: "REGISTRATION",
   },
@@ -321,7 +327,7 @@ const services = [
     description:
       "Assistance with ownership transfer documentation when buying or selling a vehicle.",
     image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=85",
+      rt2,
     icon: <FiRefreshCw />,
     tag: "OWNERSHIP TRANSFER",
   },
@@ -331,7 +337,7 @@ const services = [
     description:
       "Application guidance for learner licences, driving licences and eligible renewals.",
     image:
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1200&q=85",
+      rt3,
     icon: <FiCreditCard />,
     tag: "LICENCE SERVICES",
   },
@@ -341,7 +347,7 @@ const services = [
     description:
       "Guidance on NOC documents and vehicle transfer procedures between states.",
     image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85",
+      rt4,
     icon: <FiMapPin />,
     tag: "INTER-STATE",
   },
@@ -351,7 +357,7 @@ const services = [
     description:
       "Documentation support for commercial vehicles, permits and fitness procedures.",
     image:
-      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=85",
+      rt5,
     icon: <FiTruck />,
     tag: "COMMERCIAL VEHICLES",
   },
@@ -361,7 +367,7 @@ const services = [
     description:
       "Assistance with registration certificate renewal and duplicate RC applications.",
     image:
-      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=85",
+    rt6,
     icon: <FiClipboard />,
     tag: "DOCUMENT SUPPORT",
   },
