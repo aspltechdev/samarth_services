@@ -137,7 +137,7 @@
 // //               </a>
 
 // //               <a
-// //                 href="mailto:info@samarthbusinesssolutions.in"
+// //                 href="mailto:info@samarthmultiservices.in"
 // //                 className="contact-info-item"
 // //               >
 // //                 <span className="contact-info-icon">
@@ -551,7 +551,7 @@
 //                 </a>
 
 //                 <a
-//                   href="mailto:info@samarthbusinesssolutions.in"
+//                   href="mailto:info@samarthmultiservices.in"
 //                   className="contact-info-item"
 //                 >
 //                   <span className="contact-info-icon">
@@ -1038,7 +1038,7 @@ export default function Contact() {
 
                 {/* Email */}
                 <a
-                  href="mailto:info@samarthbusinesssolutions.in"
+                  href="mailto:info@samarthmultiservices.in"
                   className="contact-info-item"
                 >
                   <span className="contact-info-icon">
