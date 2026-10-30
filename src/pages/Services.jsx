@@ -522,9 +522,7 @@ function Services() {
                   <img
                     src={service.image}
                     alt={service.title}
-                    loading="lazy"
-fetchPriority="high"
-  decoding="async"
+                   loading="lazy"
                   />
 
                   <div className="rto-card-image-overlay" />

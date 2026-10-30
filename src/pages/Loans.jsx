@@ -815,9 +815,7 @@
 //               <img
 //                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=85"
 //                 alt=""
-//                 loading="lazy"
-fetchPriority="high"
-  decoding="async"
+//                loading="lazy"
 //               />
 //             </div>
 //           </motion.div>
@@ -1187,9 +1185,7 @@ fetchPriority="high"
 //                       src={loan.image}
 //                       alt={loan.title}
 //                       className="loans-card-image"
-//                       loading="lazy"
-fetchPriority="high"
-  decoding="async"
+//                      loading="lazy"
 //                     />
 
 //                     <div className="loans-card-image-shade" />
@@ -1365,9 +1361,7 @@ fetchPriority="high"
 //               <img
 //                 src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=85"
 //                 alt="Professional reviewing financial documents"
-//                 loading="lazy"
-fetchPriority="high"
-  decoding="async"
+//                loading="lazy"
 //               />
 //             </div>
 //           </motion.div>
@@ -2055,9 +2049,7 @@ function Loans() {
                       src={loan.image}
                       alt={loan.title}
                       className="loans-card-image"
-                      loading="lazy"
-fetchPriority="high"
-  decoding="async"
+                     loading="lazy"
                     />
                     <div className="loans-card-image-shade" />
                     <div className="loans-card-icon">
@@ -2210,9 +2202,7 @@ fetchPriority="high"
               <img
                 src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=85"
                 alt="Professional reviewing financial documents"
-                loading="lazy"
-fetchPriority="high"
-  decoding="async"
+               loading="lazy"
               />
             </div>
           </motion.div>

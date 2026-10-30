@@ -590,9 +590,7 @@ export default function Insurance() {
             <img
               src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=85"
               alt="Insurance planning documents"
-              loading="lazy"
-fetchPriority="high"
-  decoding="async"
+             loading="lazy"
             />
 
             <div className="insurance-intro-badge">
@@ -822,9 +820,7 @@ fetchPriority="high"
             <img
               src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=85"
               alt="Reviewing insurance and financial documents"
-              loading="lazy"
-fetchPriority="high"
-  decoding="async"
+             loading="lazy"
             />
             <div className="insurance-checklist-image-label">
               <ShieldCheck size={21} />

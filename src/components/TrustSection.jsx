@@ -289,9 +289,7 @@ export default function TrustSection() {
               <img
                 src={b3}
                 alt="Business professionals discussing customer needs"
-                loading="lazy"
-fetchPriority="high"
-  decoding="async"
+               loading="lazy"
               />
               <div className="smc-trust-image-shade" />
 
