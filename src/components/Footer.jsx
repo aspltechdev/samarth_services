@@ -113,11 +113,11 @@
 // // //           <div className="footer-column footer-contact">
 // // //             <h3>Get in Touch</h3>
 
-// // //             <a href="tel:+919904856687" className="footer-contact-item">
+// // //             <a href="tel:+919900458068" className="footer-contact-item">
 // // //               <span><Phone size={17} /></span>
 // // //               <div>
 // // //                 <small>Call Us</small>
-// // //                 <strong>+91 99048 56687</strong>
+// // //                 <strong>+91 9900458068</strong>
 // // //               </div>
 // // //             </a>
 
@@ -142,7 +142,7 @@
 
 // // //             <a
 // // //               className="footer-whatsapp"
-// // //               href="https://wa.me/919904856687?text=Hello%20Samarth%20Business%20Solutions"
+// // //               href="https://wa.me/919900458068?text=Hello%20Samarth%20Business%20Solutions"
 // // //               target="_blank"
 // // //               rel="noreferrer"
 // // //             >
@@ -204,7 +204,7 @@
 // //   const currentYear = new Date().getFullYear();
 
 // //   // Replace these sample details with the client's verified information.
-// //   const phone = "+919904856687";
+// //   const phone = "+919900458068";
 // //   const email = "info@samarthbusinesssolutions.in";
 
 // //   return (
@@ -402,7 +402,7 @@
 // // export default function Footer() {
 // //   const currentYear = new Date().getFullYear();
 
-// //   const phone = "+919904856687";
+// //   const phone = "+919900458068";
 // //   const email = "info@samarthbusinesssolutions.in";
 
 // //   return (
@@ -499,7 +499,7 @@
 
 // //               <div>
 // //                 <small>Call Us</small>
-// //                 <strong>+91 99048 56687</strong>
+// //                 <strong>+91 9900458068</strong>
 // //               </div>
 // //             </a>
 
@@ -595,7 +595,7 @@
 // export default function Footer() {
 //   const currentYear = new Date().getFullYear();
 
-//   const phone = "+919904856687";
+//   const phone = "+919900458068";
 //   const email = "info@samarthbusinesssolutions.in";
 
 //   const socialLinks = [
@@ -714,7 +714,7 @@
 
 //               <div>
 //                 <small>Call Us</small>
-//                 <strong>+91 99048 56687</strong>
+//                 <strong>+91 9900458068</strong>
 //               </div>
 //             </a>
 
@@ -931,7 +931,7 @@ const Footer = () => {
 
           <div className="footer-contact-item">
             <FiPhone className="footer-contact-icon" />
-            <a href="tel:+919904856687">+91 99048 56687</a>
+            <a href="tel:+919900458068">+91 9900458068</a>
           </div>
 
           <div className="footer-contact-item">
@@ -948,7 +948,7 @@ const Footer = () => {
 
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/919904856687"
+            href="https://wa.me/919900458068"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-whatsapp"

@@ -11,7 +11,7 @@
 // // } from "react-icons/fi";
 // // import "./Contact.css";
 
-// // const WHATSAPP_NUMBER = "919904856687"; // Replace with the verified business number
+// // const WHATSAPP_NUMBER = "919900458068"; // Replace with the verified business number
 
 // // const services = [
 // //   "Loans & Finance",
@@ -120,7 +120,7 @@
 
 // //             <div className="contact-info-list">
 // //               <a
-// //                 href="tel:+919904856687"
+// //                 href="tel:+919900458068"
 // //                 className="contact-info-item"
 // //               >
 // //                 <span className="contact-info-icon">
@@ -129,7 +129,7 @@
 
 // //                 <span className="contact-info-copy">
 // //                   <small>Call us</small>
-// //                   <strong>+91 99048 56687</strong>
+// //                   <strong>+91 9900458068</strong>
 // //                   <span>Speak with our team</span>
 // //                 </span>
 
@@ -359,7 +359,7 @@
 // import contact from "../assets/contact.png";
 
 
-// const WHATSAPP_NUMBER = "919904856687";
+// const WHATSAPP_NUMBER = "919900458068";
 
 // const services = [
 //   "Loans & Finance",
@@ -534,7 +534,7 @@
 
 //               <div className="contact-info-list">
 //                 <a
-//                   href="tel:+919904856687"
+//                   href="tel:+919900458068"
 //                   className="contact-info-item"
 //                 >
 //                   <span className="contact-info-icon">
@@ -543,7 +543,7 @@
 
 //                   <span className="contact-info-copy">
 //                     <small>CALL OUR TEAM</small>
-//                     <strong>+91 99048 56687</strong>
+//                     <strong>+91 9900458068</strong>
 //                     <span>Speak with us directly</span>
 //                   </span>
 
@@ -799,7 +799,7 @@ import {
 import "./Contact.css";
 import contact from "../assets/contact.png";
 
-const WHATSAPP_NUMBER = "919904856687";
+const WHATSAPP_NUMBER = "919900458068";
 
 const WEB3FORMS_ACCESS_KEY = "e5e14949-9765-42f7-8c6b-d779c560079b";
 
@@ -1020,7 +1020,7 @@ export default function Contact() {
               <div className="contact-info-list">
                 {/* Phone */}
                 <a
-                  href="tel:+919904856687"
+                  href="tel:+919900458068"
                   className="contact-info-item"
                 >
                   <span className="contact-info-icon">
@@ -1029,7 +1029,7 @@ export default function Contact() {
 
                   <span className="contact-info-copy">
                     <small>CALL OUR TEAM</small>
-                    <strong>+91 99048 56687</strong>
+                    <strong>+91 9900458068</strong>
                     <span>Speak with us directly</span>
                   </span>
 

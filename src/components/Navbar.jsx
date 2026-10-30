@@ -23,7 +23,7 @@
 //         <div className="container top-strip-inner">
 //           <span>Your trusted partner for everyday business services</span>
 
-//           <a href="tel:+919904856687">
+//           <a href="tel:+919900458068">
 //             <PhoneCall size={14} />
 //             Call for enquiries
 //           </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
             Your trusted partner for everyday business services
           </span>
 
-          <a href="tel:+919904856687" className="top-call">
+          <a href="tel:+919900458068" className="top-call">
             <PhoneCall size={14} />
             <span>Call for enquiries</span>
             <ArrowUpRight size={13} />

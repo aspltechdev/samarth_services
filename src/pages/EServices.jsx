@@ -25,7 +25,7 @@ import e7 from "../assets/e7.png";
 import e8 from "../assets/e8.png";
 
 
-const WHATSAPP = "https://wa.me/919904856687";
+const WHATSAPP = "https://wa.me/919900458068";
 
 const eServices = [
   {

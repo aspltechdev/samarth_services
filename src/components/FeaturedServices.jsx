@@ -9,7 +9,7 @@
 // import { Link } from "react-router-dom";
 // import "./FeaturedServices.css";
 
-// const WHATSAPP_NUMBER = "919904856687"; // Verify before publishing
+// const WHATSAPP_NUMBER = "919900458068"; // Verify before publishing
 
 // const featuredServices = [
 //   {
@@ -166,7 +166,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./FeaturedServices.css";
 
-const SM_FEATURED_WHATSAPP = "919904856687"; // Verify before publishing
+const SM_FEATURED_WHATSAPP = "919900458068"; // Verify before publishing
 import b1 from "../assets/b1.png";
 import b2 from "../assets/b2.png";
 

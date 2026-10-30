@@ -84,7 +84,7 @@
 // ];
 
 // export default function Services() {
-//   const phoneNumber = "919904856687";
+//   const phoneNumber = "919900458068";
 
 //   const createWhatsAppLink = (serviceTitle) => {
 //     const message = encodeURIComponent(
@@ -308,7 +308,7 @@ import rt4 from "../assets/rt4.png";
 import rt5 from "../assets/rt5.png";
 import rt6 from "../assets/rt6.png";
 
-const whatsapp = "https://wa.me/919904856687";
+const whatsapp = "https://wa.me/919900458068";
 
 const services = [
   {

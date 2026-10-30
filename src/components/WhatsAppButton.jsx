@@ -7,7 +7,7 @@ export default function WhatsAppButton() {
   const [showMessage, setShowMessage] = useState(false);
 
   // Replace with the client's verified WhatsApp number.
-  const phoneNumber = "919904856687";
+  const phoneNumber = "919900458068";
 
   const message = encodeURIComponent(
     "Hello Samarth Business Solutions! I would like to know more about your services."

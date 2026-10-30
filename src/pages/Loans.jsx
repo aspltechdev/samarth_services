@@ -107,7 +107,7 @@
 // // ];
 
 // // export default function Loans() {
-// //   const phoneNumber = "919904856687";
+// //   const phoneNumber = "919900458068";
 
 // //   const getWhatsAppLink = (loanTitle) => {
 // //     const message = encodeURIComponent(
@@ -349,7 +349,7 @@
 // } from "react-icons/fi";
 // import "./Loans.css";
 
-// const WHATSAPP_NUMBER = "919904856687"; // Verify before publishing
+// const WHATSAPP_NUMBER = "919900458068"; // Verify before publishing
 
 // const loanTypes = [
 //   {
@@ -860,7 +860,7 @@
 
 // import "./Loans.css";
 
-// const WHATSAPP_NUMBER = "919904856687";
+// const WHATSAPP_NUMBER = "919900458068";
 
 // const loanTypes = [
 //   {
@@ -1427,7 +1427,7 @@ import l9 from "../assets/l9.png";
 import l10 from "../assets/l10.png";
 import l11 from "../assets/l11.png";
 
-const WHATSAPP_NUMBER = "919904856687";
+const WHATSAPP_NUMBER = "919900458068";
 
 const createWhatsAppLink = (message) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;

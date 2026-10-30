@@ -34,7 +34,7 @@ import i7 from "../assets/i7.png";
 import i8 from "../assets/i8.png";
 import i9 from "../assets/i9.png";
 
-const WHATSAPP_NUMBER = "919904856687";
+const WHATSAPP_NUMBER = "919900458068";
 
 const slides = [
   {

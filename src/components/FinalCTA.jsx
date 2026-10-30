@@ -3,8 +3,8 @@
 // import { Link } from "react-router-dom";
 // import "./FinalCTA.css";
 
-// const WHATSAPP_NUMBER = "919904856687"; // Verify before publishing
-// const PHONE_NUMBER = "+91 99048 56687"; // Verify before publishing
+// const WHATSAPP_NUMBER = "919900458068"; // Verify before publishing
+// const PHONE_NUMBER = "+91 9900458068"; // Verify before publishing
 
 // export default function FinalCTA() {
 //   const message = encodeURIComponent(
@@ -78,8 +78,8 @@ import { motion } from "framer-motion";
 import "./FinalCTA.css";
 import ft from "../assets/ft.png";
 
-const WHATSAPP_NUMBER = "919904856687"; // Verify before publishing
-const PHONE_NUMBER = "+91 99048 56687"; // Verify before publishing
+const WHATSAPP_NUMBER = "919900458068"; // Verify before publishing
+const PHONE_NUMBER = "+91 9900458068"; // Verify before publishing
 
 export default function FinalCTA() {
   const message = encodeURIComponent(

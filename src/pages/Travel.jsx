@@ -84,7 +84,7 @@
 // // // ];
 
 // // // export default function Travel() {
-// // //   const phoneNumber = "919904856687";
+// // //   const phoneNumber = "919900458068";
 
 // // //   const createWhatsAppLink = (serviceTitle) => {
 // // //     const message = encodeURIComponent(
@@ -337,7 +337,7 @@
 
 // // import "./Travel.css";
 
-// // const WHATSAPP_NUMBER = "919904856687";
+// // const WHATSAPP_NUMBER = "919900458068";
 
 // // const travelServices = [
 // //   {
@@ -958,7 +958,7 @@
 
 // import "./Travel.css";
 
-// const WHATSAPP_NUMBER = "919904856687";
+// const WHATSAPP_NUMBER = "919900458068";
 
 // const travelServices = [
 //   {
@@ -1645,7 +1645,7 @@ import {
 
 import "./Travel.css";
 
-const WHATSAPP_NUMBER = "919904856687";
+const WHATSAPP_NUMBER = "919900458068";
 
 const travelServices = [
   {
