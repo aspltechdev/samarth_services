@@ -807,3 +807,65 @@ a.contact-info-item:hover .contact-info-arrow {
     transition: none;
   }
 }
+
+
+/* Web3Forms submission states */
+
+.contact-submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.contact-error-message {
+  padding: 16px;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  background: #fef2f2;
+  color: #b91c1c;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.contact-error-message strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-error-message p {
+  margin: 0 0 6px;
+  color: #b91c1c;
+}
+
+.contact-error-message p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-success-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  background: #f0fdf4;
+  color: #166534;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.contact-success-message svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #16a34a;
+}
+
+.contact-success-message strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.contact-success-message p {
+  margin: 0;
+  color: #166534;
+}

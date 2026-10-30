@@ -123,7 +123,7 @@ export default function Navbar() {
 
           <span className="brand-copy">
             <strong>SAMARTH</strong>
-            <small>BUSINESS SOLUTIONS</small>
+            <small>Groups</small>
           </span>
         </Link>
 
