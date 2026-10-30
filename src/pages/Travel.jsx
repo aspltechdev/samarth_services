@@ -652,6 +652,8 @@
 // //                       alt={service.title}
 // //                       className="travel-card-image"
 // //                       loading="lazy"
+fetchPriority="high"
+  decoding="async"
 // //                     />
 
 // //                     <div className="travel-card-image-overlay" />
@@ -709,6 +711,8 @@
 // //                 src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1100&q=90"
 // //                 alt="Beautiful lake surrounded by mountains"
 // //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 // //               />
 // //             </div>
 
@@ -717,6 +721,8 @@
 // //                 src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85"
 // //                 alt="Scenic outdoor travel destination"
 // //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 // //               />
 // //             </div>
 
@@ -909,6 +915,8 @@
 // //                 src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85"
 // //                 alt="Beautiful scenic destination for a holiday"
 // //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 // //               />
 // //             </div>
 // //           </motion.div>
@@ -1327,6 +1335,8 @@
 //                       alt={service.title}
 //                       className="travel-card-image"
 //                       loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //                     />
 
 //                     <div className="travel-card-image-overlay" />
@@ -1390,6 +1400,8 @@
 //                 src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1100&q=90"
 //                 alt="Ocean adventure and marine travel experience"
 //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //               />
 //             </div>
 
@@ -1398,6 +1410,8 @@
 //                 src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85"
 //                 alt="Beautiful scenic outdoor destination"
 //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //               />
 //             </div>
 
@@ -1593,6 +1607,8 @@
 //                 src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85"
 //                 alt="Scenic destination for a travel adventure"
 //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //               />
 //             </div>
 //           </motion.div>
@@ -1961,6 +1977,8 @@ function Travel() {
                         src={service.image}
                         alt=""
                         loading="lazy"
+fetchPriority="high"
+  decoding="async"
                         draggable="false"
                       />
 
@@ -2093,6 +2111,8 @@ function Travel() {
                       src={service.image}
                       alt={service.title}
                       loading="lazy"
+fetchPriority="high"
+  decoding="async"
                     />
 
                     <div className="travel-service-image-overlay" />
@@ -2163,6 +2183,8 @@ function Travel() {
                 src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"
                 alt="Scenic destination for a memorable journey"
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
             </div>
 
@@ -2171,6 +2193,8 @@ function Travel() {
                 src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=700&q=85"
                 alt="Tropical coastal destination"
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
             </div>
 

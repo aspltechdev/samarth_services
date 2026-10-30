@@ -187,6 +187,8 @@ export default function FinalCTA() {
                 src={ft}
                 alt="Business professionals collaborating and discussing ideas"
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
               <div className="smc-final-cta-image-overlay" />
 

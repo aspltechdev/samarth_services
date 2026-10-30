@@ -277,6 +277,8 @@ export default function FeaturedServices() {
                     src={service.image}
                     alt={service.imageAlt}
                     loading="lazy"
+fetchPriority="high"
+  decoding="async"
                   />
 
                   <div className="sm-featured-image-overlay" />

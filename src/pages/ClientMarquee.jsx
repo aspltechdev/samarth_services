@@ -216,6 +216,8 @@
 //                 src={`https://logo.clearbit.com/${client.domain}`}
 //                 alt={client.duplicate ? "" : client.name}
 //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //                 onError={(event) => {
 //                   event.currentTarget.style.display = "none";
 //                   event.currentTarget.parentElement.classList.add(
@@ -326,6 +328,8 @@ export default function ClientMarquee() {
                 src={client.logo}
                 alt={client.duplicate ? "" : client.name}
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
             </div>
           ))}

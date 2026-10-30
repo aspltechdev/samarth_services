@@ -256,6 +256,8 @@
 //                     src={benefit.image}
 //                     alt={benefit.alt}
 //                     loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //                   />
 
 //                   <div className="why-card-image-overlay" />
@@ -438,6 +440,8 @@ export default function WhyChooseUs() {
                     src={benefit.image}
                     alt={benefit.alt}
                     loading="lazy"
+fetchPriority="high"
+  decoding="async"
                   />
 
                   <div className="sm-why-card-overlay" />

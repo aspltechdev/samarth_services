@@ -225,6 +225,8 @@
 //                     src={step.image}
 //                     alt={step.alt}
 //                     loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //                   />
 
 //                   <div className="sm-process-image-overlay" />
@@ -458,6 +460,8 @@ export default function HowItWorks() {
                     src={step.image}
                     alt={step.alt}
                     loading="lazy"
+fetchPriority="high"
+  decoding="async"
                   />
 
                   <div className="sm-process-image-overlay" />

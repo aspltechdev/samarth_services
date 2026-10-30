@@ -78,6 +78,8 @@
 //               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85"
 //               alt="Professionals collaborating in a business meeting"
 //               loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //             />
 
 //             <div className="about-image-label">
@@ -432,6 +434,8 @@
 //                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1100&q=90"
 //                 alt="Modern commercial office building"
 //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //               />
 //             </div>
 
@@ -521,6 +525,8 @@
 //             src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2000&q=85"
 //             alt=""
 //             loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //           />
 //         </div>
 //         <div className="about-purpose-overlay" />
@@ -674,6 +680,8 @@
 //                 src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
 //                 alt="Professional using a laptop to manage business tasks"
 //                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
 //               />
 //               <div className="about-cta-image-overlay" />
 //               <div className="about-cta-image-caption">
@@ -1221,6 +1229,8 @@ export default function About() {
                 src={a4}
                 alt="Modern commercial office building"
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
             </div>
             <div className="about-intro-backdrop about-intro-backdrop-blue" />
@@ -1316,6 +1326,8 @@ export default function About() {
             src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2000&q=85"
             alt=""
             loading="lazy"
+fetchPriority="high"
+  decoding="async"
           />
         </div>
         <div className="about-purpose-overlay" />
@@ -1453,6 +1465,8 @@ export default function About() {
                 src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
                 alt="Professional using a laptop for business tasks"
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
               <div className="about-cta-image-overlay" />
               <div className="about-cta-image-caption">

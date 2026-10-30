@@ -132,6 +132,8 @@ export default function Gallery() {
                 src={item.image}
                 alt={item.title}
                 loading="lazy"
+fetchPriority="high"
+  decoding="async"
               />
 
               <span className="gallery-overlay">

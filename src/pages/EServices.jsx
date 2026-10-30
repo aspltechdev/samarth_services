@@ -274,6 +274,8 @@ function EServices() {
                       src={service.image}
                       alt={service.title}
                       loading="lazy"
+fetchPriority="high"
+  decoding="async"
                     />
 
                     <div className="es-card-overlay" />
