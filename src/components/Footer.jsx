@@ -156,7 +156,7 @@
 // // // //       <div className="footer-bottom">
 // // // //         <div className="container footer-bottom-inner">
 // // // //           <p>
-// // // //             © {currentYear} Samarth Business Solutions.
+// // // //             © {currentYear}Samarth Groups.
 // // // //             All rights reserved.
 // // // //           </p>
 
@@ -336,7 +336,7 @@
 // // //             <a
 // // //               className="footer-whatsapp"
 // // //               href={`https://wa.me/${phone.replace("+", "")}?text=${encodeURIComponent(
-// // //                 "Hello Samarth Business Solutions, I would like to enquire about your services."
+// // //                 "HelloSamarth Groups, I would like to enquire about your services."
 // // //               )}`}
 // // //               target="_blank"
 // // //               rel="noreferrer"
@@ -353,7 +353,7 @@
 // // //       <div className="footer-bottom">
 // // //         <div className="container footer-bottom-inner">
 // // //           <p>
-// // //             © {currentYear} Samarth Business Solutions.
+// // //             © {currentYear}Samarth Groups.
 // // //             All rights reserved.
 // // //           </p>
 
@@ -529,7 +529,7 @@
 // // //             <a
 // // //               className="footer-whatsapp"
 // // //               href={`https://wa.me/${phone.replace("+", "")}?text=${encodeURIComponent(
-// // //                 "Hello Samarth Business Solutions, I would like to enquire about your services."
+// // //                 "HelloSamarth Groups, I would like to enquire about your services."
 // // //               )}`}
 // // //               target="_blank"
 // // //               rel="noreferrer"
@@ -546,7 +546,7 @@
 // // //       <div className="footer-bottom">
 // // //         <div className="container footer-bottom-inner">
 // // //           <p>
-// // //             © {currentYear} Samarth Business Solutions. All rights reserved.
+// // //             © {currentYear}Samarth Groups. All rights reserved.
 // // //           </p>
 
 // // //           <Link to="/contact" className="footer-bottom-link">
@@ -749,7 +749,7 @@
 // //             <a
 // //               className="footer-whatsapp"
 // //               href={`https://wa.me/${phone.replace("+", "")}?text=${encodeURIComponent(
-// //                 "Hello Samarth Business Solutions, I would like to enquire about your services."
+// //                 "HelloSamarth Groups, I would like to enquire about your services."
 // //               )}`}
 // //               target="_blank"
 // //               rel="noopener noreferrer"
@@ -766,7 +766,7 @@
 // //       <div className="footer-bottom">
 // //         <div className="container footer-bottom-inner">
 // //           <p>
-// //             © {currentYear} Samarth Business Solutions. All rights
+// //             © {currentYear}Samarth Groups. All rights
 // //             reserved.
 // //           </p>
 
@@ -863,13 +863,13 @@
 // //           <Link to="/" className="footer-logo-link">
 // //             <img
 // //               src={logo}
-// //               alt="Samarth Business Solutions"
+// //               alt="Samarth Groups"
 // //               className="footer-logo"
 // //             />
 // //           </Link>
 
 // //           <p className="footer-description">
-// //             Samarth Business Solutions provides reliable and professional
+// //            Samarth Groups provides reliable and professional
 // //             services to simplify your personal and business needs. We are
 // //             committed to delivering convenient solutions with trust,
 // //             transparency, and customer satisfaction.
@@ -943,7 +943,7 @@
 
 // //           <div className="footer-contact-item">
 // //             <FiMapPin className="footer-contact-icon" />
-// //             <span>Samarth Business Solutions</span>
+// //             <span>Samarth Groups</span>
 // //           </div>
 
 // //           {/* WhatsApp CTA */}
@@ -964,7 +964,7 @@
 // //       <div className="footer-bottom">
 // //         <div className="footer-bottom-content">
 // //           <p className="footer-copyright">
-// //             &copy; {currentYear} Samarth Business Solutions. All rights
+// //             &copy; {currentYear}Samarth Groups. All rights
 // //             reserved.
 // //           </p>
 
@@ -1012,7 +1012,7 @@
 //   const mapsUrl = "https://maps.app.goo.gl/xLwgRKo4M4R6WiwA8";
 
 //   // Replace this with the full address shown in Google Maps.
-//   const businessAddress = "Samarth Business Solutions";
+//   const businessAddress = "Samarth Groups";
 
 //   const services = [
 //     { name: "Loans & Finance", path: "/loans" },
@@ -1059,13 +1059,13 @@
 //           <Link to="/" className="footer-logo-link">
 //             <img
 //               src={logo}
-//               alt="Samarth Business Solutions"
+//               alt="Samarth Groups"
 //               className="footer-logo"
 //             />
 //           </Link>
 
 //           <p className="footer-description">
-//             Samarth Business Solutions provides reliable and professional
+//            Samarth Groups provides reliable and professional
 //             services to simplify your personal and business needs. We are
 //             committed to delivering convenient solutions with trust,
 //             transparency, and customer satisfaction.
@@ -1145,7 +1145,7 @@
 //               href={mapsUrl}
 //               target="_blank"
 //               rel="noopener noreferrer"
-//               aria-label="View Samarth Business Solutions location on Google Maps"
+//               aria-label="ViewSamarth Groups location on Google Maps"
 //             >
 //               <span>{businessAddress}</span>
 //               <span className="footer-map-link">
@@ -1172,7 +1172,7 @@
 //       <div className="footer-bottom">
 //         <div className="footer-bottom-content">
 //           <p className="footer-copyright">
-//             &copy; {currentYear} Samarth Business Solutions. All rights
+//             &copy; {currentYear}Samarth Groups. All rights
 //             reserved.
 //           </p>
 
@@ -1219,7 +1219,7 @@ const Footer = () => {
   const mapsUrl = "https://maps.app.goo.gl/xLwgRKo4M4R6WiwA8";
 
   // Replace this with the full address shown in Google Maps.
-  const businessAddress = "Samarth Business Solutions";
+  const businessAddress = "Samarth Groups";
 
   const services = [
     { name: "Loans & Finance", path: "/loans" },
@@ -1266,13 +1266,13 @@ const Footer = () => {
           <Link to="/" className="footer-logo-link">
             <img
               src={logo}
-              alt="Samarth Business Solutions"
+              alt="Samarth Groups"
               className="footer-logo"
             />
           </Link>
 
           <p className="footer-description">
-            Samarth Business Solutions provides reliable and professional
+           Samarth Groups provides reliable and professional
             services to simplify your personal and business needs. We are
             committed to delivering convenient solutions with trust,
             transparency, and customer satisfaction.
@@ -1352,7 +1352,7 @@ const Footer = () => {
               href={mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View Samarth Business Solutions location on Google Maps"
+              aria-label="ViewSamarth Groups location on Google Maps"
             >
               <span>{businessAddress}</span>
               <span className="footer-map-link">
@@ -1379,7 +1379,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-bottom-content">
           <p className="footer-copyright">
-            &copy; {currentYear} Samarth Business Solutions. All rights
+            &copy; {currentYear}Samarth Groups. All rights
             reserved.
           </p>
 

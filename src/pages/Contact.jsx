@@ -49,7 +49,7 @@
 // //     event.preventDefault();
 
 // //     const whatsappMessage = `
-// // Hello Samarth Business Solutions!
+// // HelloSamarth Groups!
 
 // // I would like to enquire about your services.
 
@@ -160,7 +160,7 @@
 
 // //                 <span className="contact-info-copy">
 // //                   <small>Our location</small>
-// //                   <strong>Samarth Business Solutions</strong>
+// //                   <strong>Samarth Groups</strong>
 // //                   <span>Contact us for our office address</span>
 // //                 </span>
 // //               </div>
@@ -190,11 +190,11 @@
 
 // //               <a
 // //                 href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-// //                   "Hello Samarth Business Solutions! I would like to enquire about your services."
+// //                   "HelloSamarth Groups! I would like to enquire about your services."
 // //                 )}`}
 // //                 target="_blank"
 // //                 rel="noreferrer"
-// //                 aria-label="Chat with Samarth Business Solutions on WhatsApp"
+// //                 aria-label="Chat withSamarth Groups on WhatsApp"
 // //               >
 // //                 <FiArrowRight />
 // //               </a>
@@ -326,7 +326,7 @@
 
 // //           <a
 // //             href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-// //               "Hello Samarth Business Solutions! I would like to discuss my requirements."
+// //               "HelloSamarth Groups! I would like to discuss my requirements."
 // //             )}`}
 // //             target="_blank"
 // //             rel="noreferrer"
@@ -400,7 +400,7 @@
 //     event.preventDefault();
 
 //     const whatsappMessage = `
-// Hello Samarth Business Solutions!
+// HelloSamarth Groups!
 
 // I would like to enquire about your services.
 
@@ -421,7 +421,7 @@
 //   };
 
 //   const quickMessage = encodeURIComponent(
-//     "Hello Samarth Business Solutions! I would like to enquire about your services."
+//     "HelloSamarth Groups! I would like to enquire about your services."
 //   );
 
 //   return (
@@ -528,7 +528,7 @@
 
 //                 <p>
 //                   Choose the most convenient way to connect with
-//                   Samarth Business Solutions.
+//                  Samarth Groups.
 //                 </p>
 //               </div>
 
@@ -574,7 +574,7 @@
 
 //                   <span className="contact-info-copy">
 //                     <small>OUR LOCATION</small>
-//                     <strong>Samarth Business Solutions</strong>
+//                     <strong>Samarth Groups</strong>
 //                     <span>Contact us for our office address</span>
 //                   </span>
 //                 </div>
@@ -765,7 +765,7 @@
 
 //               <a
 //                 href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-//                   "Hello Samarth Business Solutions! I would like to discuss my requirements."
+//                   "HelloSamarth Groups! I would like to discuss my requirements."
 //                 )}`}
 //                 target="_blank"
 //                 rel="noreferrer"
@@ -860,7 +860,7 @@ export default function Contact() {
         body: JSON.stringify({
           access_key: WEB3FORMS_ACCESS_KEY,
           subject: `New Enquiry - ${formData.service}`,
-          from_name: "Samarth Business Solutions Website",
+          from_name: "Samarth Groups Website",
           name: formData.name.trim(),
           phone: formData.phone.trim(),
           service: formData.service,
@@ -901,7 +901,7 @@ export default function Contact() {
   };
 
   const quickMessage = encodeURIComponent(
-    "Hello Samarth Business Solutions! I would like to enquire about your services."
+    "HelloSamarth Groups! I would like to enquire about your services."
   );
 
   return (
@@ -1013,7 +1013,7 @@ export default function Contact() {
 
                 <p>
                   Choose the most convenient way to connect with
-                  Samarth Business Solutions.
+                 Samarth Groups.
                 </p>
               </div>
 
@@ -1062,7 +1062,7 @@ export default function Contact() {
 
                   <span className="contact-info-copy">
                     <small>OUR LOCATION</small>
-                    <strong>Samarth Business Solutions</strong>
+                    <strong>Samarth Groups</strong>
                     <span>
                       Contact us for our office address
                     </span>
@@ -1322,7 +1322,7 @@ export default function Contact() {
 
               <a
                 href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-                  "Hello Samarth Business Solutions! I would like to discuss my requirements."
+                  "HelloSamarth Groups! I would like to discuss my requirements."
                 )}`}
                 target="_blank"
                 rel="noreferrer"

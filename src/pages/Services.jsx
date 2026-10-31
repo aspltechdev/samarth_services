@@ -88,7 +88,7 @@
 
 //   const createWhatsAppLink = (serviceTitle) => {
 //     const message = encodeURIComponent(
-//       `Hello Samarth Business Solutions, I would like to enquire about ${serviceTitle}. Please share more information about the available services.`
+//       `HelloSamarth Groups, I would like to enquire about ${serviceTitle}. Please share more information about the available services.`
 //     );
 
 //     return `https://wa.me/${phoneNumber}?text=${message}`;
@@ -395,7 +395,7 @@ function Services() {
   const whatsappLink =
     `${whatsapp}?text=` +
     encodeURIComponent(
-      "Hi Samarth Business Solutions, I need assistance with RTO services."
+      "HiSamarth Groups, I need assistance with RTO services."
     );
 
   return (
@@ -419,7 +419,7 @@ function Services() {
           >
             <span className="rto-eyebrow">
               <span className="rto-dot" />
-              SAMARTH BUSINESS SOLUTIONS
+             Samarth Groups
             </span>
 
             <h1>
@@ -476,7 +476,7 @@ function Services() {
           <div className="rto-intro-copy">
             <p>
               Vehicle-related documentation can feel complicated.
-              Samarth Business Solutions helps you understand the process,
+             Samarth Groups helps you understand the process,
               prepare your documents and identify the appropriate next steps.
             </p>
             <a href="#rto-services" className="rto-inline-link">
@@ -535,7 +535,7 @@ function Services() {
 
                   <a
                     href={`${whatsapp}?text=${encodeURIComponent(
-                      `Hi Samarth Business Solutions, I need assistance with ${service.title}.`
+                      `HiSamarth Groups, I need assistance with ${service.title}.`
                     )}`}
                     target="_blank"
                     rel="noreferrer"
@@ -619,7 +619,7 @@ function Services() {
                 your RTO work?
               </h2>
               <p>
-                Connect with Samarth Business Solutions to discuss your
+                Connect withSamarth Groups to discuss your
                 documentation and RTO service requirements.
               </p>
 

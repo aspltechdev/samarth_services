@@ -58,7 +58,7 @@
 //           </h1>
 
 //           <p>
-//             Discover Samarth Business Solutions, a destination
+//             DiscoverSamarth Groups, a destination
 //             for exploring a range of financial, travel and
 //             business-related services.
 //           </p>
@@ -99,7 +99,7 @@
 //             </h2>
 
 //             <p>
-//               At Samarth Business Solutions, we bring together
+//               AtSamarth Groups, we bring together
 //               different service categories to make it easier
 //               for customers to explore their options.
 //             </p>
@@ -336,7 +336,7 @@
 //             </motion.h1>
 
 //             <motion.p variants={reveal}>
-//               Discover Samarth Business Solutions, a destination
+//               DiscoverSamarth Groups, a destination
 //               for exploring a range of financial, travel and
 //               business-related services.
 //             </motion.p>
@@ -473,7 +473,7 @@
 //             </motion.h2>
 
 //             <motion.p variants={reveal}>
-//               At Samarth Business Solutions, we bring together
+//               AtSamarth Groups, we bring together
 //               different service categories to make it easier
 //               for customers to explore their options.
 //             </motion.p>
@@ -723,7 +723,7 @@ import a4 from "../assets/a4.png";
 
 const slides = [
   {
-    eyebrow: "WELCOME TO SAMARTH BUSINESS SOLUTIONS",
+    eyebrow: "WELCOME TOSamarth Groups",
     title: "Your Needs Matter.",
     highlight: "Our Solutions Move You Forward.",
     description:
@@ -1058,7 +1058,7 @@ function AboutHero() {
   return (
     <>
       <style>{heroStyles}</style>
-      <section className="about-cinema" aria-label="About Samarth Business Solutions">
+      <section className="about-cinema" aria-label="AboutSamarth Groups">
         <AnimatePresence mode="sync">
           <motion.div
             key={active}
@@ -1256,7 +1256,7 @@ export default function About() {
             </motion.h2>
 
             <motion.p variants={reveal}>
-              At Samarth Business Solutions, we bring together different
+              AtSamarth Groups, we bring together different
               service categories to make it easier for customers to explore
               their options.
             </motion.p>

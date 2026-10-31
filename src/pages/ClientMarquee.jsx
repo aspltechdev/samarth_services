@@ -246,7 +246,7 @@ import galaxyHealthLogo from "../assets/gal.png";
 import starHealthLogo from "../assets/star.png";
 import iciciLogo from "../assets/ic.png";
 import careLogo from "../assets/care.png";
-import hdfcLogo from "../assets/hdfc.png";
+import hdfcLogo from "../assets/hd.png";
 import bajajLogo from "../assets/bajaj.png";
 import tataAigLogo from "../assets/tata.png";
 import relianceLogo from "../assets/reliance.png";
@@ -264,10 +264,10 @@ const clients = [
     name: "ICICI",
     logo: iciciLogo,
   },
-  {
-    name: "Care Health",
-    logo: careLogo,
-  },
+  // {
+  //   name: "Care Health",
+  //   logo: careLogo,
+  // },
   {
     name: "HDFC",
     logo: hdfcLogo,

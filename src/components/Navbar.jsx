@@ -113,11 +113,11 @@ export default function Navbar() {
           to="/"
           className="brand"
           onClick={closeMenu}
-          aria-label="Samarth Business Solutions home"
+          aria-label="Samarth Groups home"
         >
           <img
             src={logo}
-            alt="Samarth Business Solutions logo"
+            alt="Samarth Groups logo"
             className="brand-logo"
           />
 

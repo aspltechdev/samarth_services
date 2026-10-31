@@ -17,7 +17,7 @@ const testimonials = [
     name: "Customer Name",
     role: "Customer",
     review:
-      "Add a genuine customer review here describing their experience with Samarth Business Solutions.",
+      "Add a genuine customer review here describing their experience withSamarth Groups.",
     service: "Service Used",
   },
   {

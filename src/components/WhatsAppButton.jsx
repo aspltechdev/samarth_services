@@ -10,7 +10,7 @@ export default function WhatsAppButton() {
   const phoneNumber = "919900458068";
 
   const message = encodeURIComponent(
-    "Hello Samarth Business Solutions! I would like to know more about your services."
+    "HelloSamarth Groups! I would like to know more about your services."
   );
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -25,7 +25,7 @@ export default function WhatsAppButton() {
             </div>
 
             <div>
-              <strong>Samarth Business Solutions</strong>
+              <strong>Samarth Groups</strong>
               <span>How can we help you?</span>
             </div>
 

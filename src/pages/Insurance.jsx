@@ -457,7 +457,7 @@ function InsuranceHero() {
                   </Link>
 
                   <a
-                    href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Samarth Business Solutions, I would like to discuss insurance options.")}`}
+                    href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("HelloSamarth Groups, I would like to discuss insurance options.")}`}
                     target="_blank"
                     rel="noreferrer"
                     className="ins-hero-btn ins-hero-btn-secondary"
@@ -533,7 +533,7 @@ export default function Insurance() {
   const [expandedCard, setExpandedCard] = useState(null);
 
   const openWhatsApp = (service = "Insurance Enquiry") => {
-    const message = `Hello Samarth Business Solutions, I would like to know more about ${service}. Please help me understand the available options.`;
+    const message = `HelloSamarth Groups, I would like to know more about ${service}. Please help me understand the available options.`;
 
     window.open(
       `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,
@@ -717,7 +717,7 @@ export default function Insurance() {
             transition={{ duration: 0.6 }}
           >
             <span className="insurance-eyebrow">
-              WHY SAMARTH BUSINESS SOLUTIONS
+              WHYSamarth Groups
             </span>
             <h2>
               Insurance Guidance, <span>Made Simpler</span>
@@ -891,7 +891,7 @@ export default function Insurance() {
                 Contact Our Team <ArrowRight size={19} />
               </Link>
               <a
-                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello Samarth Business Solutions, I would like assistance exploring insurance options.")}`}
+                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("HelloSamarth Groups, I would like assistance exploring insurance options.")}`}
                 target="_blank"
                 rel="noreferrer"
                 className="insurance-cta-secondary"

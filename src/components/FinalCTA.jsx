@@ -8,7 +8,7 @@
 
 // export default function FinalCTA() {
 //   const message = encodeURIComponent(
-//     "Hello Samarth Business Solutions, I would like to know more about your services."
+//     "HelloSamarth Groups, I would like to know more about your services."
 //   );
 
 //   return (
@@ -83,7 +83,7 @@ const PHONE_NUMBER = "+91 9900458068"; // Verify before publishing
 
 export default function FinalCTA() {
   const message = encodeURIComponent(
-    "Hello Samarth Business Solutions, I would like to know more about your services."
+    "HelloSamarth Groups, I would like to know more about your services."
   );
 
   return (
@@ -158,7 +158,7 @@ export default function FinalCTA() {
                 className="smc-final-cta-whatsapp"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Contact Samarth Business Solutions on WhatsApp"
+                aria-label="ContactSamarth Groups on WhatsApp"
               >
                 <FiMessageCircle />
                 <span>Chat on WhatsApp</span>
@@ -222,7 +222,7 @@ export default function FinalCTA() {
               <a
                 href={`tel:${PHONE_NUMBER.replace(/\s/g, "")}`}
                 className="smc-final-cta-call-link"
-                aria-label="Call Samarth Business Solutions"
+                aria-label="CallSamarth Groups"
               >
                 <FiArrowUpRight />
               </a>

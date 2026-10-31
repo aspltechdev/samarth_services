@@ -132,7 +132,7 @@
 
 //           <a
 //             href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-//               "Hello Samarth Business Solutions! I would like help understanding your services."
+//               "HelloSamarth Groups! I would like help understanding your services."
 //             )}`}
 //             target="_blank"
 //             rel="noreferrer"

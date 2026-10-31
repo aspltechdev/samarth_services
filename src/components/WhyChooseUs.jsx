@@ -48,7 +48,7 @@
 // //         {/* Left Content */}
 // //         <div className="why-choose-content">
 // //           <span className="why-choose-eyebrow">
-// //             WHY SAMARTH BUSINESS SOLUTIONS
+// //             WHYSamarth Groups
 // //           </span>
 
 // //           <h2>

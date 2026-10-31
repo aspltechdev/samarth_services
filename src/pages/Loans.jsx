@@ -111,7 +111,7 @@
 
 // //   const getWhatsAppLink = (loanTitle) => {
 // //     const message = encodeURIComponent(
-// //       `Hello Samarth Business Solutions, I would like to enquire about ${loanTitle}. Please share the available options and eligibility requirements.`
+// //       `HelloSamarth Groups, I would like to enquire about ${loanTitle}. Please share the available options and eligibility requirements.`
 // //     );
 
 // //     return `https://wa.me/${phoneNumber}?text=${message}`;
@@ -320,7 +320,7 @@
 // //         Loan availability, eligibility, interest rates, fees and approval
 // //         are determined by the respective lender. The categories shown are
 // //         informational and do not guarantee that a particular product is
-// //         offered by Samarth Business Solutions.
+// //         offered bySamarth Groups.
 // //       </p>
 // //     </div>
 // //   );
@@ -496,7 +496,7 @@
 // export default function Loans() {
 //   const getWhatsAppLink = (loanTitle) => {
 //     const message = encodeURIComponent(
-//       `Hello Samarth Business Solutions, I would like to enquire about ${loanTitle}. Please share the available options and eligibility requirements.`
+//       `HelloSamarth Groups, I would like to enquire about ${loanTitle}. Please share the available options and eligibility requirements.`
 //     );
 
 //     return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
@@ -827,7 +827,7 @@
 //               and approval are determined by the respective lender.
 //               The categories shown are informational and do not
 //               guarantee that a particular product is offered by
-//               Samarth Business Solutions.
+//              Samarth Groups.
 //             </p>
 //           </div>
 //         </div>
@@ -1062,7 +1062,7 @@
 //             <div className="loans-hero-actions">
 //               <a
 //                 href={createWhatsAppLink(
-//                   "Hello Samarth Business Solutions, I would like to enquire about your loan services."
+//                   "HelloSamarth Groups, I would like to enquire about your loan services."
 //                 )}
 //                 target="_blank"
 //                 rel="noopener noreferrer"
@@ -1213,7 +1213,7 @@
 
 //                     <a
 //                       href={createWhatsAppLink(
-//                         `Hello Samarth Business Solutions, I would like to enquire about ${loan.title}. Please share the available options and eligibility details.`
+//                         `HelloSamarth Groups, I would like to enquire about ${loan.title}. Please share the available options and eligibility details.`
 //                       )}
 //                       className="loans-card-link"
 //                       target="_blank"
@@ -1258,7 +1258,7 @@
 
 //               <a
 //                 href={createWhatsAppLink(
-//                   "Hello Samarth Business Solutions, I need help understanding the loan enquiry process."
+//                   "HelloSamarth Groups, I need help understanding the loan enquiry process."
 //                 )}
 //                 target="_blank"
 //                 rel="noopener noreferrer"
@@ -1337,7 +1337,7 @@
 //               <div className="loans-cta-actions">
 //                 <a
 //                   href={createWhatsAppLink(
-//                     "Hello Samarth Business Solutions, I would like to discuss my loan requirements."
+//                     "HelloSamarth Groups, I would like to discuss my loan requirements."
 //                   )}
 //                   target="_blank"
 //                   rel="noopener noreferrer"
@@ -1377,7 +1377,7 @@
 //             <strong>Important information:</strong> All loans are
 //             subject to the eligibility criteria, documentation,
 //             interest rates, terms, and approval processes of the
-//             relevant lender. Samarth Business Solutions does not
+//             relevant lender.Samarth Groups does not
 //             guarantee loan approval or a specific interest rate.
 //             Please review all applicable terms with the lender before
 //             proceeding.
@@ -1922,7 +1922,7 @@ function LoansHero() {
                 <div className="loan-cinema-actions">
                   <a
                     href={createWhatsAppLink(
-                      "Hello Samarth Business Solutions, I would like to enquire about your loan services."
+                      "HelloSamarth Groups, I would like to enquire about your loan services."
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -2074,7 +2074,7 @@ function Loans() {
 
                     <a
                       href={createWhatsAppLink(
-                        `Hello Samarth Business Solutions, I would like to enquire about ${loan.title}. Please share the available options and eligibility details.`
+                        `HelloSamarth Groups, I would like to enquire about ${loan.title}. Please share the available options and eligibility details.`
                       )}
                       className="loans-card-link"
                       target="_blank"
@@ -2113,7 +2113,7 @@ function Loans() {
 
               <a
                 href={createWhatsAppLink(
-                  "Hello Samarth Business Solutions, I need help understanding the loan enquiry process."
+                  "HelloSamarth Groups, I need help understanding the loan enquiry process."
                 )}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -2183,7 +2183,7 @@ function Loans() {
               <div className="loans-cta-actions">
                 <a
                   href={createWhatsAppLink(
-                    "Hello Samarth Business Solutions, I would like to discuss my loan requirements."
+                    "HelloSamarth Groups, I would like to discuss my loan requirements."
                   )}
                   target="_blank"
                   rel="noopener noreferrer"

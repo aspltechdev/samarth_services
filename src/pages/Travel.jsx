@@ -88,7 +88,7 @@
 
 // // //   const createWhatsAppLink = (serviceTitle) => {
 // // //     const message = encodeURIComponent(
-// // //       `Hello Samarth Business Solutions, I would like to enquire about ${serviceTitle}. Please share the available options and details.`
+// // //       `HelloSamarth Groups, I would like to enquire about ${serviceTitle}. Please share the available options and details.`
 // // //     );
 
 // // //     return `https://wa.me/${phoneNumber}?text=${message}`;
@@ -477,7 +477,7 @@
 // // export default function Travel() {
 // //   const createWhatsAppLink = (serviceTitle) => {
 // //     const message = encodeURIComponent(
-// //       `Hello Samarth Business Solutions, I would like to enquire about ${serviceTitle}. Please share the available travel options and details.`
+// //       `HelloSamarth Groups, I would like to enquire about ${serviceTitle}. Please share the available travel options and details.`
 // //     );
 
 // //     return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
@@ -1122,7 +1122,7 @@
 // export default function Travel() {
 //   const createWhatsAppLink = (serviceTitle) => {
 //     const message = encodeURIComponent(
-//       `Hello Samarth Business Solutions, I would like to enquire about ${serviceTitle}. Please share the available travel options and details.`
+//       `HelloSamarth Groups, I would like to enquire about ${serviceTitle}. Please share the available travel options and details.`
 //     );
 
 //     return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
@@ -1803,7 +1803,7 @@ function createWhatsAppLink(message) {
 function Travel() {
   const openGeneralEnquiry = () => {
     const message =
-      "Hello Samarth Business Solutions, I would like to enquire about your travel services. Please share more details.";
+      "HelloSamarth Groups, I would like to enquire about your travel services. Please share more details.";
 
     window.open(
       createWhatsAppLink(message),
@@ -2130,7 +2130,7 @@ function Travel() {
                       onClick={() =>
                         window.open(
                           createWhatsAppLink(
-                            `Hello Samarth Business Solutions, I am interested in your ${service.title} service. Please share the available options and details.`
+                            `HelloSamarth Groups, I am interested in your ${service.title} service. Please share the available options and details.`
                           ),
                           "_blank",
                           "noopener,noreferrer"
@@ -2291,7 +2291,7 @@ function Travel() {
               onClick={() =>
                 window.open(
                   createWhatsAppLink(
-                    "Hello Samarth Business Solutions, I would like to know more about Marine Travel and coastal travel experiences."
+                    "HelloSamarth Groups, I would like to know more about Marine Travel and coastal travel experiences."
                   ),
                   "_blank",
                   "noopener,noreferrer"

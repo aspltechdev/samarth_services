@@ -135,7 +135,7 @@ function EServices() {
   const generalEnquiry =
     `${WHATSAPP}?text=` +
     encodeURIComponent(
-      "Hi Samarth Business Solutions, I need assistance with government e-services."
+      "HiSamarth Groups, I need assistance with government e-services."
     );
 
   return (
@@ -159,7 +159,7 @@ function EServices() {
           >
             <span className="es-eyebrow">
               <span className="es-live-dot" />
-              SAMARTH BUSINESS SOLUTIONS
+             Samarth Groups
             </span>
 
             <h1>
@@ -254,7 +254,7 @@ function EServices() {
               const enquiry =
                 `${WHATSAPP}?text=` +
                 encodeURIComponent(
-                  `Hi Samarth Business Solutions, I need assistance with ${service.title}. Please share the requirements and process.`
+                  `HiSamarth Groups, I need assistance with ${service.title}. Please share the requirements and process.`
                 );
 
               return (
